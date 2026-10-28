@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore everyday cooked meals and learn about their nutrients with PlateDO.">
+  <meta name="theme-color" content="#123f32">
+  <title>PlateDO | Better Food, Healthier You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/FoodWebsite/FrontEnd/css/style.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header and main navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="PlateDO home">
+        <span class="brand-mark"><img src="/FoodWebsite/Images/platedo-mark.png" alt=""></span>
+        <span>Plate<span class="brand-accent">DO</span><small>BETTER FOOD, HEALTHIER YOU</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#foods">Featured meals</a></li>
+        <li><a class="nav-link" href="#ingredients">Nutrition guide</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+      </ul>
+      <a class="nav-cta" href="#foods">Explore meals <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero: short introduction paired with a strong food image -->
+    <section class="hero" id="home">
+      <div class="hero-shape hero-shape-one" aria-hidden="true"></div>
+      <div class="hero-shape hero-shape-two" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> SIMPLE FOOD. SMARTER CHOICES.</p>
+          <h1>Know your food.<br><span>Feel the good.</span></h1>
+          <p class="hero-description">
+            A little more knowledge can make every plate count. Explore familiar cooked meals
+            and learn about the protein, carbohydrates, fats, and vitamins they can provide.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#foods">Explore featured meals <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#ingredients">Learn about nutrients <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">(())</span>
+            <p><strong>Everyday ingredients, useful knowledge.</strong><br>Made for curious eaters and busy students.</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-frame">
+            <img src="/Foodwebsite/images/hero-balanced-meal.png"
+                 alt="Balanced plate with rice, cooked chicken, egg, leafy greens, and banana">
+          </div>
+          <div class="image-label label-top">
+            <span class="label-icon" aria-hidden="true">✦</span>
+            <span><strong>Everyday balance</strong><small>Food for thought</small></span>
+          </div>
+          <div class="image-label label-bottom">
+            <span class="label-leaf" aria-hidden="true">↗</span>
+            <span><strong>Learn as you eat</strong><small>Know what is on your plate</small></span>
+          </div>
+          <span class="hero-spark spark-one" aria-hidden="true">✳</span>
+          <span class="hero-spark spark-two" aria-hidden="true">✦</span>
+        </div>
+      </div>
+      <div class="hero-bottom-line" aria-hidden="true"></div>
+    </section>
+
+    <!-- Small visual summary of the nutrition topics covered -->
+    <section class="nutrition-strip" aria-label="Nutrients covered">
+      <div class="container strip-inner">
+        <p class="strip-intro">A closer look at your plate</p>
+        <div class="strip-item"><span class="nutrient-symbol protein" aria-hidden="true">P</span><span><strong>Protein</strong><small>Growth & repair</small></span></div>
+        <div class="strip-item"><span class="nutrient-symbol carbs" aria-hidden="true">C</span><span><strong>Carbohydrates</strong><small>Energy source</small></span></div>
+        <div class="strip-item"><span class="nutrient-symbol fats" aria-hidden="true">F</span><span><strong>Fats</strong><small>Energy & absorption</small></span></div>
+        <div class="strip-item"><span class="nutrient-symbol vitamins" aria-hidden="true">V</span><span><strong>Vitamins</strong><small>Body functions</small></span></div>
+      </div>
+    </section>
+
+    <!-- Featured meal cards -->
+    <section class="section foods-section" id="foods">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> GOODNESS ON A PLATE</p>
+            <h2>Featured <span>meals.</span></h2>
+            <p class="section-description">Familiar ingredients, with a closer look at what they offer.</p>
+          </div>
+          <p class="serving-note"><span aria-hidden="true">◷</span> Nutrition estimates depend on portions and preparation.</p>
+        </div>
+
+        <div class="food-grid">
+          <article class="food-card">
+            <div class="food-photo">
+              <img src="/FoodWebsite/images/Product photo.png" alt="Marinated chicken breast served with rice and vegetables" loading="lazy">
+              <span class="photo-tag">MEAL 01</span>
+            </div>
+            <div class="food-card-content">
+              <div class="food-title-row">
+                <div>
+                  <p class="food-category">PROTEIN-RICH MEAL</p>
+                  <h3>Marinated Chicken Breast</h3>
+                </div>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+              </div>
+              <p class="food-description">Chicken breast with white rice, egg, and vegetables.</p>
+              <div class="nutrition-values" aria-label="Example nutrition values">
+                <div class="nutrition-value"><span class="value-dot dot-protein"></span><span><strong>35 g</strong><small>Protein</small></span></div>
+                <div class="nutrition-value"><span class="value-dot dot-carbs"></span><span><strong>77 g</strong><small>Carbs</small></span></div>
+                <div class="nutrition-value"><span class="value-dot dot-fat"></span><span><strong>21 g</strong><small>Fat</small></span></div>
+              </div>
+              <div class="vitamin-line"><span class="vitamin-icon" aria-hidden="true">✳</span><span><strong>Vitamin highlights</strong> Your meal provides <strong>vitamins A, B1, B2, B3, B6, B9, B12, C, D, and K,</strong> in varying amounts. It also supplies protein, carbohydrates, fats, and minerals.</span></div>
+    
+            </div>
+          </article>
+
+          <article class="food-card">
+            <div class="food-photo">
+              <img src="/FoodWebsite/images/Garlic Buttered.jpeg" alt="Garlic butter chicken breast with egg, sayote, and pechay" loading="lazy">
+              <span class="photo-tag">MEAL 02</span>
+            </div>
+            <div class="food-card-content">
+              <div class="food-title-row">
+                <div>
+                  <p class="food-category">COMFORTING & BALANCED</p>
+                  <h3>Chicken Garlic Butter</h3>
+                </div>
+                <span class="card-arrow" aria-hidden="true">↗</span>
+              </div>
+              <p class="food-description">Garlic butter chicken breast with egg, sayote, pechay, and rice.</p>
+              <div class="nutrition-values" aria-label="Example nutrition values">
+                <div class="nutrition-value"><span class="value-dot dot-protein"></span><span><strong>36 g</strong><small>Protein</small></span></div>
+                <div class="nutrition-value"><span class="value-dot dot-carbs"></span><span><strong>84 g</strong><small>Carbs</small></span></div>
+                <div class="nutrition-value"><span class="value-dot dot-fat"></span><span><strong>23 g</strong><small>Fat</small></span></div>
+              </div>
+              <div class="vitamin-line"><span class="vitamin-icon" aria-hidden="true">✳</span><span><strong>Vitamin highlights</strong> Your meal contains essential vitamins such as <span><strong>Vitamins A, B3, B6, B12, C, E, and K, plus folate (B9).</strong></span> These vitamins support energy production, immunity, vision, healthy blood cells, and bone health.</span></div>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Ingredient education section -->
+    <section class="section ingredient-section" id="ingredients">
+      <div class="container ingredient-layout">
+        <div class="ingredient-intro">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A LITTLE FOOD KNOWLEDGE</p>
+          <h2>Good things<br>come <span>together.</span></h2>
+          <p>Different foods provide different nutrients. A varied plate can help you get a mix of nutrients your body uses every day.</p>
+          <a class="text-link dark-link" href="#references">Explore trusted references <span aria-hidden="true">→</span></a>
+          <div class="ingredient-decor" aria-hidden="true">✳</div>
+        </div>
+        <div class="ingredient-list">
+          <article class="ingredient-item">
+            <div class="ingredient-icon icon-chicken" aria-hidden="true">01</div>
+            <div><h3>Chicken & egg</h3><p>Provide protein, which the body uses to build and repair tissues. They also contain several B vitamins.</p></div>
+            <span class="ingredient-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="ingredient-item">
+            <div class="ingredient-icon icon-rice" aria-hidden="true">02</div>
+            <div><h3>Rice</h3><p>Provides carbohydrates. Carbohydrates provide the primary energy source for the body. </p></div>
+            <span class="ingredient-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="ingredient-item">
+            <div class="ingredient-icon icon-greens" aria-hidden="true">03</div>
+            <div><h3>Pechay & sayote</h3><p>Contribute vitamins, minerals, and fiber. The amount depends on the vegetable and how it is prepared.</p></div>
+            <span class="ingredient-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="ingredient-item">
+            <div class="ingredient-icon icon-banana" aria-hidden="true">04</div>
+            <div><h3>Banana</h3><p>Provides carbohydrates, potassium, and vitamin B6 as part of a varied diet.</p></div>
+            <span class="ingredient-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About and methodology -->
+    <section class="section about-section" id="about">
+      <div class="container about-panel">
+        <div class="about-emblem"><img src="/FoodWebsite/images/platedo-mark.png" alt="" loading="lazy"></div>
+        <div class="about-copy">
+          <p class="eyebrow">THE IDEA BEHIND PLATEDO</p>
+          <h2>Understand what's<br>on your plate.</h2>
+          <p>PlateDO is an informational website created to make nutrition information about everyday cooked meals easier to explore. It is a learning resource, not a substitute for personalized medical or dietary advice.</p>
+        </div>
+        <div class="about-side-note">
+          <span class="about-quote" aria-hidden="true">“</span>
+          <p>Better food choices start with better information.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credible sources for further reading -->
+    <section class="references-section" id="references">
+      <div class="container references-inner">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> KEEP LEARNING</p>
+          <h2>Nutrition information<br>you can explore.</h2>
+        </div>
+        <div class="reference-links">
+          <a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener noreferrer">
+            <span><strong>USDA FoodData Central</strong><small>Search nutrient information for foods and ingredients.</small></span><span aria-hidden="true">↗</span>
+          </a>
+          <a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet?" target="_blank" rel="noopener noreferrer">
+            <span><strong>WHO healthy diet</strong><small>Explore the benefits of each nutrients</small></span><span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark"><img src="/FoodWebsite/images/platedo-mark.png" alt=""></span>
+        <span>Plate<span class="brand-accent">DO</span><small>BETTER FOOD, HEALTHIER YOU</small></span>
+      </a>
+      <p>Simple food. Smarter choices.</p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> PlateDO. Informational use only.</p>
+      <p>Nutrition values vary by ingredient, serving size, and cooking method.</p>
+    </div>
+  </footer>
+<script src="/FoodWebsite/FrontEnd/js/script.js"></script>
+  
+</body>
+</html>
